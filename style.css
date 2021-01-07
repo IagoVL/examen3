@@ -57,11 +57,12 @@ html {
   /* further info links */
 
   .further-info {
+    display: inline-block;
     clear: left;
-    padding: 40px 0;
     background: #c13832;
     box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
                 inset 0 -3px 2px rgba(0,0,0,0.5);
+    height: 100%;
   }
 
   .further-info a {
@@ -83,4 +84,18 @@ html {
   .red-panda img {
     display: block;
     max-width: 100%;
+  }  
+
+  #div1 {
+      width: 37%;
+      float:left;
+    
   }
+  #div2 {
+      width: 63%;
+      float:left;
+    
+  }
+
+
+    
